@@ -9,6 +9,8 @@ The problem of detecting the presence of cancer in a tissue using histopathology
 
 The dataset used for this project is the PatchCamelyon image classification dataset. It consists of 327.680 color images (96 x 96px) extracted from histopathologic scans of lymph node sections. The center 32x32 square of each patch contains at least 1 pixel of metastatic tissue. Both training and test sets are provided, with labels: 1 for presence and a 0 for the absence of metastatic tissue. 
 
+<img width="1086" height="209" alt="image" src="https://github.com/user-attachments/assets/656d90ce-8570-4537-a77b-626b7c6889f1" />
+
 Link: https://github.com/basveeling/pcam
 
 Coding was performed using Python 3.11 in Jupyter Notebook, and mainly with ML tools from the sci-kit learn module.
