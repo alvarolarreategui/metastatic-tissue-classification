@@ -1,5 +1,5 @@
 # metastatic-tissue-classification
-Classification of Histopathological Images (from PCAM) for Cancer Detection Using Python and sklearn 
+## Classification of Histopathological Images (from PCAM) for Cancer Detection Using Python and sklearn 
 
 *This project was developed for the class ISyE 6740 Computational Data Analytics in 2023. The file Team_51_submitted.pdf contains full details and conclusions*
 
