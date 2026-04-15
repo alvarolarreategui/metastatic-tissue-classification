@@ -27,4 +27,4 @@ The classifiers were chosen based on the inherent non-linearity of the data, and
 - MLPClassifier with hidden layers (10,10)
 - AdaBoostClassifier(DecisionTreeClassifier()) with n_estimators=200
 
-See "Team_51_submitted.pdf" fro full details.
+See Team_51_submitted.pdf file for full details and conclusions.
