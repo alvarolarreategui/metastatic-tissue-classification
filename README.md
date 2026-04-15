@@ -12,3 +12,17 @@ The dataset used for this project is the PatchCamelyon image classification data
 Link: https://github.com/basveeling/pcam
 
 Coding was performed using Python 3.11 in Jupyter Notebook, and mainly with ML tools from the sci-kit learn module.
+
+Analytical Approach
+
+Since the data provides a label, the classification setting is pretty much straightforward. I carried out different combinations of classifiers, train-test split sizes and source images as detailed below:
+
+The classifiers were chosen based on the inherent non-linearity of the data, and the binary nature of the classification. Not all of them were used at each stage or phase. For example, SVM was included basically out of curiosity, even though it was expected to perform poorly. For the first 3 phases, the following classifiers were used:
+
+o KNeighborsClassifier with k=5 in all of the Phases, including CV
+o LogisticRegression with default parameters
+o SVC with ‘linear’ kernel and KSVM with ‘rbf’ kernel and C=5
+o MLPClassifier with hidden layers (10,10)
+o AdaBoostClassifier(DecisionTreeClassifier()) with n_estimators=200
+
+See "Team_51_submitted.pdf" fro full details.
